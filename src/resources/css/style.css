@@ -1,0 +1,38 @@
+.mainPane, Button, ComboBox, TextField {
+     -fx-background-color: white;
+ }
+
+ TextField {
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+    -fx-border-color: #999999;
+ }
+
+ Button:hover, ComboBox:hover {
+    -fx-background-color: rgb(210, 210, 210);
+ }
+
+
+ Button:pressed {
+    -fx-background-color: rgb(160, 160, 160);
+ }
+
+ Button.blue, Button.blue:hover{
+    -fx-background-color: rgb(107, 179, 255);
+ }
+
+ .myBox .arrow{
+    -fx-background-color: #999999;
+
+ }
+ .myBox {
+    -fx-max-width: 0;
+ }
+
+ .hidden{
+    visibility: hidden;
+ }
+
+ .addPane{
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+ }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:id="addPane"
+            fx:controller="main.java.com.chat.controllers.simpleTabs.AddPaneController"
+            styleClass="addPane, hidden">
+    <top>
+        <BorderPane>
+            <right>
+                <Button text="add" onAction="#addFriend" />
+            </right>
+            <center>
+                <TextField />
+            </center>
+        </BorderPane>
+    </top>
+    <bottom>
+        <StackPane>
+            <Button text="cancel" alignment="CENTER" prefWidth="Infinity" onAction="#hidePane"/>
+        </StackPane>
+    </bottom>
+</BorderPane>
+

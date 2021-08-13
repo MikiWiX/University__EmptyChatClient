@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="main.java.com.chat.controllers.chatPane.HeaderController"
+            fx:id="header">
+    <left>
+        <Button text="..." styleClass="topButton"/>
+    </left>
+    <center>
+        <HBox fx:id="contactPane" alignment="BASELINE_RIGHT">
+            <ComboBox fx:id="moreContacts" value="..." styleClass="myBox" prefWidth="-Infinity" onAction="#activateContactTabFromComboBox"/>
+        </HBox>
+    </center>
+    <right>
+        <Button text="+" styleClass="topButton" onAction="#openAddFriendTab"/>
+    </right>
+
+</BorderPane>
+

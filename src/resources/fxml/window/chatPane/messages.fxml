@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import java.net.URL?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="main.java.com.chat.controllers.chatPane.MessagesController"
+            fx:id="messages">
+
+    <VBox AnchorPane.bottomAnchor="0" AnchorPane.rightAnchor="0">
+        <Text text="xd" />
+        <Text text="xd" />
+        <Text text="xd" />
+    </VBox>
+
+</AnchorPane>

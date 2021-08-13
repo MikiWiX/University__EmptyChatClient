@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<?import main.java.com.chat.controllers.chatPane.HeaderController?>
+<?import main.java.com.chat.controllers.chatPane.MessagesController?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="main.java.com.chat.controllers.chatPane.ChatController"
+            fx:id="chat">
+
+    <top>
+        <fx:include fx:id="header" source="header.fxml"/>
+    </top>
+    <center>
+        <fx:include fx:id="messages" source="messages.fxml"/>
+    </center>
+    <bottom>
+        <BorderPane>
+            <right>
+                <Button text="send" />
+            </right>
+            <center>
+                <TextField />
+            </center>
+        </BorderPane>
+    </bottom>
+
+</BorderPane>
+
+
+
